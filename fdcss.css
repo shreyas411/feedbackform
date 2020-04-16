@@ -1,0 +1,266 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+   }
+   
+    
+    
+   .h1{
+    margin: 0px 10px 30px 230px;
+    color:rgb(8, 153, 201);
+   }
+   
+form{
+    -webkit-box-shadow: 3px 17px 5px -8px rgba(93,107,102,1);
+-moz-box-shadow: 3px 17px 5px -8px rgba(93,107,102,1);
+box-shadow: 3px 17px 5px -8px rgba(93,107,102,1);
+    min-height: 200px;
+    width: 50vw;
+    margin: 100px auto;
+    background-color:  rgb(211, 222, 224);
+    border-radius: 5px;
+    padding:90px;
+    text-align:left;
+}
+.event
+{
+    background-color: white;
+    margin: 20px 10px 10px 57px;
+    width:250px;
+    height: 25px;
+}
+.name{
+    background-color: white;
+    margin: 20px 10px 10px 100px;
+    width:250px;
+    height: 25px;
+    
+}
+.id{
+    
+   
+    margin: 20px 20px 20px 123px;
+    width:250px;
+    height: 25px;
+    background-color: white;
+}
+.mno{
+    
+    margin: 0px 10px 10px 152px;
+    width:250px;
+    height: 25px;
+    background-color: white;
+}
+.m1{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 175px;
+    background-color: white;
+}
+.f1{width: 15px;
+    height: 15px;
+   
+    margin: 20px 10px 20px 10px;
+    background-color: white;
+}
+
+.gd{
+    
+    margin: 0px 10px 10px 145px;
+    width:256px;
+    height: 25px;
+    background-color: white;
+}
+.ys{
+   
+    margin: 0px 10px 10px 125px;
+    width:256px;
+    height: 25px;
+    background-color: white;
+}
+
+.dp{
+    
+    margin: 0px 10px 10px 139px;
+    width:256px;
+    height: 25px;
+    background-color: white;
+}
+.tn{
+    
+    margin: 0px 10px 10px 138px;
+    width:250px;
+    height: 25px;
+    background-color: white;
+}
+.rpn{
+   
+    margin: 0px 10px 10px 47px;
+    width:250px;
+    height: 25px;
+    background-color: white;
+}
+.dof{
+   
+    margin: 0px 10px 10px 124px;
+    width:250px;
+    height: 25px;
+    background-color: white;
+}
+.sg{
+    
+    margin: 0px 10px 10px 238px;
+   
+    width: 250px;
+    height: 100px;
+    resize: none;
+    background-color: white;
+
+}
+.session{
+    
+    margin: 0px 10px 10px 238px;
+    width: 250px;
+    height: 100px;
+    resize: none;
+    background-color: white;
+   
+}
+.hs1{width: 15px;
+    height: 15px;
+   
+    margin: 20px 10px 20px 240px;
+    background-color: white;
+}
+.hs2{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.hs3{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 240px;
+    background-color: white;
+}
+.hs4{width: 15px;
+    height: 15px;
+    
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.sa1{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 240px;
+    background-color: white;
+}
+.sa2{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.sa3{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.sa4{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.sa5{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px; 
+    background-color: white;
+}
+.chs{
+   
+    margin: 20px 10px 10px 238px;
+    width:250px;
+    height: 25px;
+    background-color: white;
+}
+.uon1{width: 15px;
+    height: 15px;
+   
+    margin: 20px 10px 20px 240px;
+    background-color: white;
+}
+.uon2{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.gr1{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 240px;
+    background-color: white;
+}
+.gr2{ width: 15px;
+    height: 15px;
+  
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.gr3{
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.gr4{ width: 15px;
+    height: 15px;
+   
+    margin: 20px 10px 20px 15px;
+    background-color: white;
+}
+.gr5{
+
+    width: 15px;
+    height: 15px;
+    margin: 20px 10px 20px 15px; 
+    background-color: white;
+}
+.sb{
+    margin: 20px 10px 20px 315px;
+    width:80px;
+    height: 50px;
+    border-radius: 5px;
+    color:black;
+    background-color:rgb(105, 212, 248);
+   
+    }
+    
+      
+      /* Mobile Styles */
+      @media only screen and (max-width: 400px) {
+        body {
+          background-color: #F09A9D; /* Red */
+        }
+      }
+      
+      /* Tablet Styles */
+      @media only screen and (min-width: 401px) and (max-width: 960px) {
+        body {
+          background-color: #F5CF8E; /* Yellow */
+        }
+      }
+      
+      /* Desktop Styles */
+      @media only screen and (min-width: 961px) {
+        
+        body {
+            background:  rgba(93,107,102,1);
+          }
+      }
+
+

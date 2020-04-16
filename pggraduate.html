@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Graduation</title>
+</head>
+<body>
+    <h1 style="text-align:center;color:aqua;">Post Graduation</h1>
+    <form action="pggraduate.php" method = "post" target="blank" style="text-align:center;">
+        <label for="college"  style="color:#00008B;">Enter College Name</label><br>
+        <select id="cname" name="cname" style="width:200px;">
+            <option value="none">---Choose---</option>
+            <option value = "Erode Sengunthar Engineering College">Erode Sengunthar Engineering College</option>
+            <option value = "Kongu Engineering College">Kongu Engineering College</option>
+            <option value = "KSR Engineering College">KSR Engineering College</option>
+            <option value = "Salem Engineering College">Salem Engineering College</option>
+        </select>
+        <br><br>
+    
+        <label for="college"  style="color:#00008B;"> Year Of Study</label><br>
+        <select id="cyear" name="cyear" style="width:200px;">
+            <option value="none">---Choose---</option>
+            <option value = "1 year">1 Year</option>
+            <option value = "2 year">2 Year</option>
+            <option value = "3 year">3 Year</option>
+        </select> <br><br>
+        
+        <label for="college"  style="color:#00008B;"> Semester </label><br>
+        <select id="sem" name="sem" style="width:200px;">
+            <option value="none"><b>---Choose---</b></option>
+            <option value="1 semester"><b>1 semester</b></option>
+            <option value="2 semester"><b>2 semester</b></option>
+            <option value="3 semester"><b>3 semester</b></option>
+            <option value="4 semester"><b>4 semester</b></option>
+            <option value="5 semester"><b>5 semester</b></option>
+            <option value="6 semester"><b>6 semester</b></option>
+        </select> <br><br>
+
+
+        <label for="college"  style="color:#00008B;">Enter Your Branch</label><br>
+        <select class="dp" name="pgdept" id="PG" style="width:200px;">
+            <option value="none" >---Choose---</option>
+            <option value="M.E-CSE">M.E-CSE</option>
+            <option value="M.E-MECH">M.E-MECH</option>
+    </select><br><br>
+
+
+        <input type="submit" name="sub" value="submit"  style="width:80px;height:30px; color:brown;"> 
+    </form>
+    <script src="validation.js"></script>
+</body>
+</html>

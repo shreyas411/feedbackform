@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+    <link rel="stylesheet" type="text/css" href="fdcss.css">
+</head>
+<body>
+    
+    
+        
+<form action="datainsert.php" method="post" onsubmit="return validate()" style="font-family: sans-serif;">
+        <h1 class="h1" ><b>Feedback Form</b></h1>
+<b>Enter The Event Name:</b>
+        <select class="event" name="event" required>
+            <option value="none"><b>---Choose---</b></option>
+            <option value="Paper Presentation"><b>Paper Presentation</b></option>
+            <option value="workshop"><b>Workshop</b></option>
+            <option value="Implant Training"><b>Implant Training</b></option>
+        </select><br><br>
+
+<b>Enter Your Name:</b>     
+      <input type="text" name="uname" value=""  class="name" placeholder="shreyas" ><br><br>
+
+<b>Enter Email Id:</b>
+       <input type="email"name="mail" value=""  class="id" placeholder="shreyas41@gmail.com"  ><br><br>
+<b>Mobile No:</b>
+      
+        <input type="tel" name="phone" id="mobile" value=""  class="mno" placeholder="mobile" ><br><br>
+<b> Gender:</b>
+       
+        <input type="radio" name="gender" class="m1" value="male" ><b>Male</b>
+        <input type="radio" name="gender"  class="f1" value="female" ><b>female</b><br><br>
+<b>College Name:</b>
+        
+<select id="cname" name="cname" style="margin: 0px 10px 10px 122px;
+width:250px;
+height: 25px;
+background-color: white;">
+        <option value="none">---Choose---</option>
+        <option value = "Erode Sengunthar Engineering College">Erode Sengunthar Engineering College</option>
+        <option value = "Kongu Engineering College">Kongu Engineering College</option>
+        <option value = "KSR Engineering College">KSR Engineering College</option>
+        <option value = "Salem Engineering College">Salem Engineering College</option>
+    </select>
+    <br><br>
+
+<b> graduation:</b>
+       
+        <select class="gd" name="grad" id="grad" onchange=" ch()" >
+            <option value="none">---Choose---</option>
+            <option value="UG" ><b>UG</b></option>
+            <option value="PG" ><b>PG</b></option>
+        </select><br><br>
+<b>Year Of Study:</b>
+        
+        <select class="ys" name="cyear" >
+            <option value="none"><b>---Choose---</b></option>
+            <option value="1 year"><b>1 year</b></option>
+            <option value="2 year"><b>2 year</b></option>
+            <option value="3 year"><b>3 year</b></option>
+            <option value="4 year"><b>4 year</b></option>
+        </select><br><br>
+
+<b>Semester:</b>
+        
+        <select class="sem" name="sem"   style=" margin: 0px 10px 10px 155px;
+        width:256px;
+        height: 25px;
+        background-color: white;">
+            <option value="none"><b>---Choose---</b></option>
+            <option value="1 semester"><b>1 semester</b></option>
+            <option value="2 semester"><b>2 semester</b></option>
+            <option value="3 semester"><b>3 semester</b></option>
+            <option value="4 semester"><b>4 semester</b></option>
+            <option value="5 semester"><b>5 semester</b></option>
+            <option value="6 semester"><b>6 semester</b></option>
+            <option value="7 semester"><b>7 semester</b></option>
+            <option value="8 semester"><b>8 semester</b></option>
+        </select><br><br>
+        
+<b> Department:</b>
+       
+        <select class="dp" name="dept" id="UG" style="display:none;margin-left:238px;">
+            <option value="none">---Choose---</option>
+            <option value="B.E-CSE">B.E-CSE</option>
+            <option value="B.E-MECH">B.E-MECH</option>
+            <option value="B.E-EEE">B.E-EEE</option>
+            <option value="B.E-ECE">B.E-ECE</option>
+            <option value="B.TECH-CHEMICAL">B.TECH-CHEMICAL</option>
+            <option value="B.E-EIE">B.E-EIE</option>
+            <option value="B.E-BME">B.E-BME</option>
+            <option value="B.E-IT">B.E-IT</option>
+        </select>
+
+        <select class="dp" name="pgdept" id="PG" style="display:none;margin-left:238px;">
+                <option value="none">---Choose---</option>
+                <option value="M.E-CSE">M.E-CSE</option>
+                <option value="M.E-MECH">M.E-MECH</option>
+        </select><br><br>
+
+<b>Topic Name:</b>
+        <input  type="text" value=""  class="tn" name="tname" ><br><br>
+<b>Resource Person Name:</b>
+        
+        <input type="text" name="rname" class="rpn" value=""><br><br>
+<b> Date Of Event:</b>
+       
+        <input type="date" id="dt1" class="dof"  name="date" ><br><br>
+<b >Suggestion:</b>
+<br>
+<textarea cols="num" rows="num" class="sg" name="sug" ></textarea><br><br>
+<b>How Was The Session:</b>
+<br>
+<textarea cols="num" rows="num" class="session" name="session" ></textarea><br><br>
+<b>Whether He/She Make The Session Interactive:</b>
+<br>
+<input type="radio" class="hs1" name="interact" value="yes" ><b>Yes</b>
+    <input type="radio" class="hs2" name="interact" value="no" ><b>No</b> <br><br>
+<b>Whether He/She Convey Their Thoughts Are Correctely And In Understable Manner:</b>
+<br>
+<input type="radio" class="hs3" name="convey" value="yes" ><b>Yes</b>
+<input type="radio" class="hs4"  name="convey" value="no" ><b>No</b><br><br>
+<b>How Was The Sitting  Arrangement:</b>
+<br>
+<input type="radio" class="sa1" name="seat" value="5" ><b>5</b>
+<input type="radio"   class="sa2" name="seat" value="4" ><b>4</b>
+<input type="radio"  class="sa3"  name="seat" value="3" ><b>3</b>
+<input type="radio"   class="sa4" name="seat" value="2" ><b>2</b>
+<input type="radio"  class="sa5"  name="seat" value="1" ><b>1</b><br><br>
+<b>How Long The Session Was Carried By He/She:</b>
+<br>
+<input type="text" class="chs" name="time" value="" placeholder="Time"> <br><b>Note: In PaperPresentation to give the time in minutes..<br>
+In Workshop to give the Time in Hours or Days..  <br> 
+In Implant-Training to give the Time in Days..</b>
+<br><br>
+
+<br><b>Useful Or Not:</b>
+<br>
+<input type="radio" class="uon1" name="useful" value="yes" ><b>Yes</b>
+<input type="radio"  class="uon2" name="useful" value="no" ><b>No</b><br><br>
+<b>Give Rating:</b>
+<br>
+<input type="radio" class="gr1" name="rate" value="5" ><b>5</b>
+<input type="radio" class="gr2" name="rate" value="4" ><b>4</b>
+<input type="radio" class="gr3" name="rate" value="3" ><b>3</b>
+<input type="radio" class="gr4" name="rate" value="2" ><b>2</b>
+<input type="radio" class="gr5" name="rate" value="1" > <b>1</b> <br><br>
+
+
+ <input type="submit" class="sb" name="submit"  value="submit">
+ 
+
+   </form>
+
+</body>
+<script src="./validation.js"></script>
+</html>
